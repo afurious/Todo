@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+.container input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid lime;
+    color: white;
+    font-size: 20px;
+    padding: 6px 10px;
+}
+.container :nth-child(2){
+    background: lime;
+    padding: 6px 12px;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+}
+.container :nth-child(3){
+    background: red;
+    padding: 6px 12px;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+}
+.completed{
+    position: absolute;
+    width: 70%;
+    height: 3px;
+    background: white;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.editable{
+    border: 3px solid lime !important;
+
+}

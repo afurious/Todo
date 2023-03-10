@@ -1,0 +1,30 @@
+.container{
+    margin-top: 50px;
+}
+
+.container form{
+   display: flex;
+   gap: 20px;
+}
+.container input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid lime;
+    color: white;
+    font-size: 20px;
+    padding: 6px 10px;
+}
+.container input::placeholder{
+    color: white;
+}
+.container button{
+    height: 50px;
+    width: 50px;
+    color: white;
+    background: lime;
+    border-radius: 50%;
+    font-size: 40px;
+    border: 0;
+}
